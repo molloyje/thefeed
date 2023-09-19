@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+body{
+    background-color: #f2ebbf;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 300px;
+    position:fixed;
+    top:25px;
+    left:25px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border-radius: 30px;
+}
+
+img{
+    width: 300px;
+}
+
+nav{
+    background-color:#8CBEB2;
+    width: 300px;
+    position:fixed;
+    top: 325px;
+    left: 25px;    
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border-radius: 30px;
+}
+
+a{
+    color: rgb(240, 170, 238);
+    text-decoration: none;
+    font-family: 'font-family: 'Pacifico', cursive;;
+}
+
+a:visited{
+    color: darkslategrey;
+}
+
+a:hover{
+    color: #8CBEB2;
+}
+
+main{
+    background-color:#8CBEB2;
+    width:650px;
+    margin-left: 500px;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+section{
+    background-color: linen;
+    border: 8px #8CBEB2 double;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+section img{
+    border: 5px #8CBEB2 double;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+section img:hover{
+    background-color:#F06060;
+}
+
+section p{
+    color: #5C4B51;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+footer{
+    background-color: #F3B562;
+    width: 300px;
+    position:fixed;
+    bottom: 25px;
+    left: 25px;
+    color: darkslategrey;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#splashgif{
+    text-align: center;
+    margin-top: 25%;
+    width: 50%;
+    margin: auto;
+}
+
+#splashgif:hover{
+    opacity:0.5;
+    background-color: azure;
+}
