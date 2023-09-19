@@ -27,14 +27,16 @@ nav{
     top: 325px;
     left: 25px;    
     font-family: 'Pacifico', cursive;
+    font-size: 24px;
     text-align: center;
     border-radius: 30px;
 }
 
 a{
-    color: rgb(240, 170, 238);
+    color: #5C4B51;
     text-decoration: none;
-    font-family: 'font-family: 'Pacifico', cursive;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
 }
 
 a:visited{
@@ -42,7 +44,7 @@ a:visited{
 }
 
 a:hover{
-    color: #8CBEB2;
+    color: #F3B562;
 }
 
 main{
@@ -54,7 +56,6 @@ main{
     text-align: center;
     border-radius: 30px;
 }
-
 
 section{
     background-color: linen;
@@ -79,6 +80,18 @@ section img:hover{
     background-color:#F06060;
 }
 
+section video{
+    border: 5px #8CBEB2 double;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+section video:hover{
+    background-color:#F06060;
+}
+
 section p{
     color: #5C4B51;
     font-family: 'Montserrat', sans-serif;
@@ -100,11 +113,26 @@ footer{
 #splashgif{
     text-align: center;
     margin-top: 25%;
-    width: 50%;
+    width: 25%;
     margin: auto;
 }
 
 #splashgif:hover{
-    opacity:0.5;
-    background-color: #8CBEB2;
+}
+
+#splashgif p{
+    width: 300px;
+    color: darkslategrey;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: smaller;
+    position:fixed;
+    text-align: center;
+}
+
+#splashgif h3{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: auto;
 }
