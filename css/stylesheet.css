@@ -23,14 +23,16 @@ img{
 nav{
     background-color:#8CBEB2;
     width: 300px;
-    position:fixed;
     top: 325px;
-    left: 25px;    
+    left: 25px;   
+    position:fixed; 
     font-family: 'Pacifico', cursive;
     font-size: 24px;
     text-align: center;
     border-radius: 30px;
-    cursor: color: #8CBEB2;
+    cursor: color: #8CBEB2; 
+    overflow-x: auto;
+    overflow-y: scroll;
 }
 
 a{
@@ -103,9 +105,9 @@ section p{
 footer{
     background-color: #F3B562;
     width: 300px;
-    position:fixed;
-    bottom: 25px;
-    left: 25px;
+    position:relative;
+    bottom:25px;
+    left: 55%;
     color: darkslategrey;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
